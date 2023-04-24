@@ -6,6 +6,10 @@ class User_Controller extends CI_Controller{
         echo "Men index metoduyam";
     }
 
+    public function contact(){
+        echo "Men contact metoduyam";
+    }
+
     public function about(){
         echo "Men about metoduyam";
     }
