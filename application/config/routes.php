@@ -53,5 +53,8 @@ $route['default_controller'] = 'User_Controller';
 $route['index'] = 'User_Controller/index';
 $route['contact'] = 'User_Controller/contact';
 $route['about'] = 'User_Controller/about';
+$route['gallery'] = 'User_Controller/gallery';
+$route['service'] = 'User_Controller/service';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

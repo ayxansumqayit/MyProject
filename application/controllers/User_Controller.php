@@ -3,14 +3,19 @@
 class User_Controller extends CI_Controller{
 
     public function index(){
-        echo "Men index metoduyam";
+        $this->load->view('user/index');
     }
-
-    public function contact(){
-        echo "Men contact metoduyam";
-    }
-
     public function about(){
-        echo "Men about metoduyam";
+        $this->load->view('user/about');
     }
+    public function contact(){
+        $this->load->view('user/contact');
+    }
+    public function gallery(){
+        $this->load->view('user/gallery');
+    }
+    public function service(){
+        $this->load->view('user/service');
+    }
+
 }
